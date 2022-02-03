@@ -106,3 +106,15 @@ body{
         }
     }
 }
+
+@media only screen and (min-width: 850px) {
+    .previev{
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+    }
+
+    .previev__mheader{
+        margin-bottom: -60px
+    }
+  }

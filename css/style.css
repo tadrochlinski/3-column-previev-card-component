@@ -125,4 +125,20 @@ body {
 .previev__card--darkcyan {
   background: #004241;
 }
+
+@media only screen and (min-width: 850px) {
+  .previev {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 500px;
+  }
+  .previev__mheader {
+    margin-bottom: -60px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
